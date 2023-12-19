@@ -1,0 +1,11 @@
+[Unit]
+Description= Blink LED
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/sel/1576/pratica7/pratica7.py
+#ExecStop=
+user=SEL
+
+[Install]
+WantedBy=multi-user.target

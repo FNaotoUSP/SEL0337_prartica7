@@ -1,0 +1,75 @@
+  .
+  .
+  .
+  696  cd 1576/
+  697  ls
+  698  mkdir pratica7
+  699  cd pratica7
+  700  nano praticat.py
+  701  nano pratica7.py
+  702  cp pratica7.py blink.sh
+  703  ls blink.sh 
+  704  nano blink.sh 
+  705  chmod +x ./blink.sh
+  706  nano blink.sh 
+  707  ./blink.sh 
+  708  chmod +x ./blink.sh
+  709  ./blink.sh 
+  710  nano blink.sh 
+  711  chmod +x ./blink.sh
+  712  ./blink.sh 
+  713  chmod +x blink.sh
+  714  ./blink.sh 
+  715  nano blink.sh 
+  716  chmod +x blink.sh
+  717  ./blink.sh 
+  718  nano blink.sh 
+  719  chmod +x blink.sh
+  720  ./blink.sh 
+  721  chmod +x ./blink.sh
+  722  ./blink.sh 
+  723  chmod +x ./blink.sh
+  724  chmod +x blink.sh
+  725  ./blink.sh 
+  726  nano unit.txt
+  727  cp unit.txt blink2.servic
+  728  ls
+  729  rm unit.txt 
+  730  ls
+  731  nano blink2.service 
+  732* sudo /lib/systemd/system/blink2.service 
+  733  sudo systemctl start blink
+  734  sudo systemctl start blink2
+  735  sudo systemctl stop blink2
+  736  sudo systemctl enable blink2
+  737  shutdown now
+  738  cd 1576/
+  739  cd pratica7
+  740  pwd
+  741  pinout
+  742  shutdown now
+  743  cd 1576/
+  744  ls
+  745  cd pratica7
+  746  ls
+  747  sudo systemctl start blink2
+  748  sudo systemctl stop blink2
+  749  sudo systemctl start blink2
+  750  nano blink2.service 
+  751  sudo systemctl start blink2
+  752  ./blink.sh 
+  753  sudo systemctl stop blink2
+  754  sudo systemctl start blink2
+  755  sudo systemctl stop blink2
+  756  cd 1576/
+  757  cd pratica7
+  758  ls
+  759  nano pratica7.py 
+  760  nano blink2.service 
+  761  sudo systemctl start blink2
+  762  sudo systemctl stop blink2
+  763  sudo systemctl enable blink2
+  764  sudo cp blink2.service /lib/systemd/system
+  765  nano blink2.service /lib/systemd/system
+  766  sudo systemctl enable blink2
+  767  history > historico.txt
